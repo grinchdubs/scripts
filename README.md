@@ -1,2 +1,2 @@
-# scripts
-some scripts I made for making my life easier 
+# Scripts
+Some scripts I made for making my life easier 
