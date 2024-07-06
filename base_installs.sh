@@ -2,7 +2,7 @@
 
 curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
 curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh
-sudo apt install -y tldr fzf bat screen fish timeshift cargo snapd git fd-find
+sudo apt install -y tldr fzf bat screen fish timeshift cargo snapd git fd-find glances
 cargo install eza
 echo /usr/bin/fish | sudo tee -a /etc/shells
 chsh -s /usr/bin/fish
