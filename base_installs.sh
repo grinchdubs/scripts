@@ -2,8 +2,10 @@
 
 curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
 curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh
-sudo apt install -y tldr fzf bat screen fish timeshift cargo snapd git fd-find glances
+sudo apt install -y tldr fzf bat screen fish cargo snapd git fd-find glances
 cargo install eza
+cargo install --git https://github.com/quantumsheep/sshs
+curl -sL portal.spatiumportae.com | sudo bash
 echo /usr/bin/fish | sudo tee -a /etc/shells
 chsh -s /usr/bin/fish
 curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
