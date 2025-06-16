@@ -17,8 +17,6 @@ dpkg -i LocalSend-1.14.0-linux-x86-64.deb #local send install
 wget https://gist.githubusercontent.com/joaopizani/2718397/raw/9e2560b77e1e1298ef24be16297d853f9885b20d/.screenrc #screen config download
 git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime #vim config download
 sh ~/.vim_runtime/install_awesome_vimrc.sh #vim config install
-wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb #teamviewer download
-sudo dpkg -i teamviewer_amd64.deb #teamviewer install
 echo "run fish_add_path /home/grnch/.cargo/bin to add cargo to PATH" #add cargo as path
 fish #run fish shell
 
